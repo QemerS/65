@@ -1,0 +1,12 @@
+.checked {
+    color: orange;
+  }
+.c400-100 {
+    width: 400px; height: 100px;
+  }
+  .w-1000 {
+    width: 1000px;
+  }
+  .c400-300 {
+    width: 400px;height: 300px;
+  }
