@@ -20,6 +20,11 @@ namespace WebApplication.Models
         public IFormFile ImageFile { get; set; }
         [Required(ErrorMessage = "Price is not valid")]
         public decimal Price { get; set; }
+        public decimal Discount { get; set; }
         public DateTime CreatedDate { get; set; }
+        [Column("ntext")]
+        public string About { get; set; }
+        public int Count { get; set; }
+        public string SKU { get; set; }
     }
 }

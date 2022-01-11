@@ -17,7 +17,11 @@ namespace WebApp.Controllers
         {
             return View();
         }
+        public IActionResult Detail()
+        {
+            return View();
+        }
 
-        
+
     }
 }
